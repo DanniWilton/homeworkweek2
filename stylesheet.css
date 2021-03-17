@@ -1,10 +1,10 @@
 body {
-    background-color: lightpink;
+    background-color: black;
     background-position: top;
 }
 
 header nav ul li {
-    display: inline-block;
+    display: inline-flex;
     margin-left: 25px;
 }
 
@@ -18,11 +18,14 @@ a:active {
 }
 /* Container holding the image and the text */
 .banner {
+    
     position: relative;
     top: 0;
     left: 0;
 }
 .neonsunset {
+    display: flex;
+    justify-content: center;
     position: relative;
     top: 0;
     left: 0%;
@@ -50,27 +53,40 @@ a:active {
 
 /* Navigates to different parts of the page*/
 .navigation {
+    display: inline-flex;
     position: absolute;
     top: 300px;
-    bottom: 8px;
+    bottom: 100px;
     right: 60px;
-    font-size: 28px;
+    font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 28px;
+    font-size: 38px;
     margin-left: 50px;
+    color: mediumpurple;
 }
+
 p {
     display: block;
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
-    text-align: left;
+    text-align: start;
     padding: 20px;
     margin-left: 200px;
     margin-right: 100px;
-    background-color: hotpink;
+    background-color: mistyrose;
+    border: 2px purple solid;
+
+}
+
+.Contact {
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rebeccapurple;
+    text-align: end;
+
 }
