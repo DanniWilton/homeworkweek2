@@ -1,11 +1,17 @@
 body {
     background-color: black;
     background-position: top;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header nav ul li {
     display: inline-flex;
-    margin-left: 25px;
+    justify-content: right;
+    align-items: center;
+    padding: 5px;
 }
 /* mouse over link*/
 a:hover {
@@ -17,6 +23,9 @@ a:active {
 }
 /* Container holding the image, title and nav bar */
 .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 0;
     left: 0;
 }
@@ -66,6 +75,8 @@ h2 {
 
 body{
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 p {
     font-size: 20px;
@@ -76,7 +87,7 @@ p {
     margin-right: 100px;
     background-color: mistyrose;
     border: 2px purple solid;
-
+    border-radius: 1rem;
 }
 p:nth-of-type(1) {
     margin-top: 400px;
