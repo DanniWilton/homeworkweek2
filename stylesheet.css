@@ -34,6 +34,7 @@ header {
     left: 60px;
     border: 1px hotpink solid;
     width: 150px;
+    border-radius: .75rem;
 }
 /*Bottom left header text*/
 .danniw {
