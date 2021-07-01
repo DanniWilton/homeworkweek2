@@ -95,10 +95,10 @@ header {
 #horiseon {
     grid-row: 3;
 }
-#ybbsocials {
+/* #ybbsocials {
     grid-row: 2;
     grid-column: 2;
-}
+} */
 #contacttitle {
     grid-column: 1;
     grid-row: 3;
@@ -128,6 +128,10 @@ p {
     padding-right: 50px;
 }
 .far {
+    font-size: 100px;
+    padding-right: 50px;
+}
+.fas {
     font-size: 100px;
     padding-right: 50px;
 }
